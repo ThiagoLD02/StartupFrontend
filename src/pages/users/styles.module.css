@@ -1,0 +1,197 @@
+#mainBox {
+    display: flex;
+    
+    height: 100vh;
+    background-color: var(--Green-Scale-2-hex-color);
+
+}
+
+
+#mainBox .side-bar a:nth-child(3) {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dispositives{
+   
+    height: 100%;
+    width: 100%;
+    background-color: var(--Green-Scale-2-hex-color);
+    box-sizing: border-box;
+    padding: 85px 0 0 180px;  
+}
+
+.dispositives h2{
+    
+    color: white;
+}
+#mainBox header {
+   
+    background-color: var(--Green-Scale-2-hex-color);
+    color: white;
+    padding-bottom: 40px;
+    height: fit-content;
+}
+
+.dispositivesContent {
+
+    display: grid;
+    grid-gap: 20px;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    background-color: var(--Green-Scale-2-hex-color);
+    
+
+}
+
+.dispositivesContent-left {
+    
+
+    height: 100%;
+    width: 50%;
+    
+    text-align: center;
+    justify-content: center;
+
+
+    padding-left: 40px;
+}
+
+.dispositivesContent-right {
+    width: 50%;
+    height: 100%;
+
+    padding-right: 40px;
+
+
+}
+.dispositivesBox {
+        
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+ 
+    width: 320px;
+    
+
+}
+
+.dispositivesBox-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dispositivesBox-header {
+
+    display: flex;
+    justify-content: space-between;
+}
+.dispositivesBox-header h1 {
+
+    padding-left: 10px;
+    padding-top: 30px;
+    
+
+}
+.batteryBox{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+.battery {
+    border: 3px solid #333;
+    width: 18px;
+    height: 28px;
+    padding: 2px;
+    border-radius: 4px;
+    position: relative;
+    margin: 30px 10px;
+}  
+.battery:before {
+    content: '';
+    height: 3px;
+    width: 18px;
+    background: #333;
+    display: block;
+    position: absolute;
+    top: -6px;
+    border-radius: 4px 4px 0 0;
+}
+
+  
+.batteryLevel {
+    background: #30b455;  
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+
+}
+
+.dispositivesBox-content-status {
+    
+    display: flex;
+    align-items: flex-end;
+    padding: 0 16px 8px 0;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #18C29C;
+
+}
+
+.dispositivesBox-content-status#red{
+    color: #B71C1C;
+}
+
+.dispositivesContent button {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.dispositivesBox a {
+    text-decoration: none;
+    color: var(--Green-Scale-1-hex-color);
+    margin-right: 15px;
+}
+
+.dispositivesBox a:hover {
+    text-decoration: underline #12687250;
+    color: var(--Green-Scale-3-hex-color);
+}
+
+.dispositivesList {
+    
+    width: 450px;
+    padding: 40px 0;
+}
+
+
+
+.dispositivesBoxHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.dispositivesBoxHeader h1{
+    padding-left: 10px;
+    padding-top: 30px;
+}
+.dispositivesBoxContent{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.dispositivesBoxContentStatus{
+    display: flex;
+    align-items: flex-end;
+    padding: 0 16px 8px 0;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #18C29C;
+    
+}

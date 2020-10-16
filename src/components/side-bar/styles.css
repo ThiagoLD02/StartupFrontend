@@ -1,0 +1,65 @@
+.sideBar{
+    
+    display: flex;
+    flex-direction: column;
+    width: 129px;
+    height: 100%;
+    background-color: rgb(3, 23, 39);
+
+    /* Lucão */
+    position: fixed;
+    margin-top: 75px;
+}
+
+.sideBar a {
+    
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 35px;
+    box-sizing: border-box;
+    transition: 500ms;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sideBar a:first-child {
+
+    margin-top: 10px;
+    
+
+}
+
+.sideBar a:hover {
+
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.sideBar a img {
+    
+    margin-bottom: 20px;
+}
+
+.sideBar a:nth-child(3) img, .sideBar a:nth-child(4) img {
+    
+    height: 60px;
+}
+
+.sideBar#first a:first-child{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.sideBar#second a:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.sideBar#third a:nth-child(3){
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.sideBar#last a:last-child{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+

@@ -1,0 +1,141 @@
+
+.instContent .side-bar a:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.instContent {
+   
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 75px);
+    background-color: var(--Green-Scale-2-hex-color);
+
+}
+
+.instContent h1 {
+    
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+    
+}
+
+
+.dispStatus {
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+
+
+
+.modal {
+    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgba(18, 104, 114, 0.7);
+    
+}
+
+.modalContent {
+    
+    
+    margin: auto;
+    
+}
+
+.modalContent select {
+
+    border: none;
+    border-radius: 8px;
+    width: -webkit-fill-available;
+    padding: 15px;
+    margin-bottom: 20px;
+
+
+}
+
+.modalContent .buttons button:first-child{
+
+    margin-right: 5px;
+
+}
+
+.modalContent .buttons button {
+    padding: 15px;
+    border: 2px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.modal .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal h2 {
+
+    color: white;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.mainContent {
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 75px 0 0 130px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContent .content {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    background-color: whitesmoke;
+    border-radius: 18px;
+    width: fit-content;
+    min-width: 400px;
+    height: fit-content;
+    padding: 20px;
+}
+
+
+.contentSelect {
+    width: 100%;
+    padding-top: 20px;
+}
+
+p h2{
+    display: flex;
+}
+p h2 h4{
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.inputblock input {
+  
+    border: none;
+    background-color: whitesmoke;
+  
+    border-radius: 8px;
+  
+    padding: 15px;
+}
+.inputblock input:first-child {
+  
+    margin-right: 5px;
+}
+
+#chart {
+    height: 500px;
+    width: 900px;
+}

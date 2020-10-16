@@ -1,0 +1,56 @@
+/* Lucão */
+.topo{
+    position: fixed;
+    z-index: 2;
+}
+
+header img {
+    width: 129px;
+    height: 75px;
+    padding: 10px;
+    
+}
+
+header {
+    background-color: white;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    height: 75px;
+ 
+}
+
+header .rightSide {
+    display: flex;
+    align-items: center;
+    
+}
+
+header .rightSide img {
+    width: 20px;
+    height: 20px;
+    margin-right: 17px;
+}
+
+header .rightSide h1 {
+   
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #000000;
+    padding-right: 17px;
+    
+}
+
+header a {
+    text-align: left;
+    color: var(--Green-Scale-2-hex-color);
+    text-decoration: none;
+}
